@@ -1,11 +1,14 @@
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Image} from 'react-native';
+import React, { Component } from 'react';
+import { Platform, StyleSheet, Text, View, Image } from 'react-native';
+import InstaClone from './components/./././InstaClone'
 
 export default class App extends Component {
   render() {
     return (
       <View style={{flex: 1}}>
-        <View style={{flex: 1, backgroundColor: 'white'}}></View>
+        <View style={{height: 92.5+'%', backgroundColor: 'white'}}>
+          <InstaClone/>
+        </View>
         <View style={{height: 50, flexDirection: "row"}}>
           <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
             <View style={{backgroundColor:'white', width: 26, height: 26}}>
