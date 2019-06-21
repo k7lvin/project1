@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View, Image } from 'react-native';
-import InstaClone from './components/./././InstaClone'
+import InstaClone from './components/InstaClone'
 
 export default class App extends Component {
   render() {
     return (
-      <View style={{flex: 1}}>
-        <View style={{height: 92.5+'%', backgroundColor: 'white'}}>
+      <View>
+        <View style={styles.container}>
           <InstaClone/>
         </View>
         <View style={{height: 50, flexDirection: "row"}}>
@@ -47,5 +47,10 @@ export default class App extends Component {
 }
 
 const styles = StyleSheet.create({
-  
+  container: {
+    justifyContent: "center",
+    alignItems: "center",
+    height: 92.5+'%',
+    backgroundColor: "#F5FCFF"
+  }
 });
