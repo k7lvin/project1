@@ -14,7 +14,7 @@ export default class App extends Component {
             <View style={{backgroundColor:'white', width: 26, height: 26}}>
               <Image source={require('./components/img/search.png')}/>
             </View>
-            <Text style={{fontSize: 10, color:'#545454', marginTop: 4}}>Search</Text>
+            <Text style={{fontSize: 10, color:'#545455', marginTop: 4}}>Search</Text>
           </View>
           <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
             <View style={{backgroundColor:'white', width: 26, height: 26}}>
